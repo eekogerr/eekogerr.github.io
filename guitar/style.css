@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(6, 6, 6);
+    color: sandybrown;
+}
+
+
+
+img{
+    width: 100%;
+}
+
+
+.banner{
+    background-image: url(Donnerdeal-J-8_968d3052-e988-47c3-82d6-7eb4df7e39c4.jpg);
+    background-size: cover;
+    background-position: center center;
+
+    padding-top: 70px;
+    padding-bottom: 400px;
+    color: sandybrown;
+    font-size: 2em;
+    font-weight: 300;
+}
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(7, 7, 7);
+    height: 100vh;
+    width: 100%;
+    z-index: 1000;
+    transition: 1.8s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.preloader h2 {
+    font-size: 4em;
+    letter-spacing: 20px;
+    animation: preloader-anim 2s infinite alternate;
+}
+.nav-link{
+    text-decoration: none;
+    color: sandybrown !important;
+    margin-left: 20px;
+    text-transform: uppercase;
+    margin-left: 0px;
+    font-weight: 900;
+    
+}
+
+@keyframes preloader-anim {
+    0% {
+        color: rgb(255, 196, 0);
+    }
+
+    20% {
+        color: blueviolet;
+    }
+
+    40% {
+        color: chocolate;
+    }
+
+    60% {
+        color: cornflowerblue;
+    }
+
+    80% {
+        color: deeppink;
+    }
+
+    100% {
+        color: sandybrown;
+    }
+}
